@@ -1,0 +1,119 @@
+<!-- =========================
+  REVO U MINI PROJECT
+  Company Profile Website
+  FILE: index.html
+========================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechNova Company</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav">
+      <h1 class="logo">TechNova</h1>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Message Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2 id="welcomeText">Hi, Welcome</h2>
+      <p>Building modern digital solutions for your business.</p>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Company</h2>
+      <p>
+        TechNova is a technology company focused on developing high-quality
+        digital products such as websites, mobile apps, and information systems.
+      </p>
+
+      <div class="grid-2">
+        <div class="box">
+          <h3>Vision</h3>
+          <p>Becoming a trusted digital partner for businesses.</p>
+        </div>
+        <div class="box">
+          <h3>Mission</h3>
+          <ul>
+            <li>Deliver reliable software solutions</li>
+            <li>Support business growth through technology</li>
+            <li>Innovate continuously</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="team">
+    <div class="container">
+      <h2>Our Team</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="avatar"></div>
+          <h4>John Doe</h4>
+          <p>CEO</p>
+        </div>
+        <div class="team-card">
+          <div class="avatar"></div>
+          <h4>Jane Smith</h4>
+          <p>Frontend Developer</p>
+        </div>
+        <div class="team-card">
+          <div class="avatar"></div>
+          <h4>Michael Lee</h4>
+          <p>Backend Developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Message Us</h2>
+      <div class="grid-2">
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Name" />
+          <input type="email" id="email" placeholder="Email" />
+          <input type="text" id="phone" placeholder="Phone Number" />
+          <textarea id="message" placeholder="Message"></textarea>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+
+        <div class="result">
+          <p><b>Name:</b> <span id="rName"></span></p>
+          <p><b>Email:</b> <span id="rEmail"></span></p>
+          <p><b>Phone:</b> <span id="rPhone"></span></p>
+          <p><b>Message:</b> <span id="rMessage"></span></p>
+          <p><b>Time:</b> <span id="rTime"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 TechNova Company. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
